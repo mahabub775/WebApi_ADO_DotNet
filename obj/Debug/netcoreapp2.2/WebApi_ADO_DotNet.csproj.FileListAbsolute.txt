@@ -17,7 +17,6 @@ E:\Local\Inventory\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.r
 E:\Local\Inventory\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.runtimeconfig.dev.json
 E:\Local\Inventory\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.dll
 E:\Local\Inventory\WebApi_ADO_DotNet\bin\Debug\netcoreapp2.2\WebApi_ADO_DotNet.pdb
-E:\Local\Inventory\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.csprojAssemblyReference.cache
 E:\Local\Inventory\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.csproj.CoreCompileInputs.cache
 E:\Local\Inventory\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.RazorAssemblyInfo.cache
 E:\Local\Inventory\WebApi_ADO_DotNet\obj\Debug\netcoreapp2.2\WebApi_ADO_DotNet.RazorAssemblyInfo.cs

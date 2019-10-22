@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
+using WebApi_ADO_DotNet.Models.Service;
 
-namespace WebApi_ADO_DotNet.Models
+namespace WebApi_ADO_DotNet.Models.BO
 {
     public class Employee
     {
-        Employee()
+       public Employee()
         {
             EmployeeID = 0;//PK
             Name = "";
@@ -29,6 +30,23 @@ namespace WebApi_ADO_DotNet.Models
             {
                 return this.DOB != new DateTime(1755, 1, 1) ? this.DOB.ToString("dd MMM yyyy") : "";
             }
+        }
+        #endregion
+
+        #region Functions
+        public static List<Employee> Gets()
+        {
+            EmployeeService oEmployeeService = new EmployeeService();
+            return oEmployeeService.Gets();
+        }
+        public Employee Save(Employee oEmployee)
+        {
+            EmployeeService oEmployeeService = new EmployeeService();
+            return oEmployeeService.Save(oEmployee);
+        }
+        public string Delete(int ID)
+        {
+            return "Deleted";
         }
         #endregion
     }
